@@ -1,0 +1,21 @@
+{
+  "name": "kevinpage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "pug": "pug -w . -o ./ -P",
+    "stylus": "stylus -w style/*.styl -o style/",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "modern-normalize": "^2.0.0",
+    "pug": "^3.0.2",
+    "stylus": "^0.59.0"
+  }
+}
